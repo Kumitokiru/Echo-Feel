@@ -12,9 +12,9 @@ The model is trained on a **combined dataset** from:
 
 ### 1. Clone or download the repository
 
-
+```terminal
 git clone https://github.com/Kumitokiru/Echo-Feel.git
-
+```
 cd echofeel
 
 ### 2. Install required packages
