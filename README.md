@@ -1,4 +1,4 @@
-# EchoFeel – Sentiment Analyzer
+# Echo Feel – Sentiment Analyzer
 
 **EchoFeel** is a sentiment analysis web app built using Flask and machine learning. It allows users to input product reviews (in English, Tagalog, or Taglish) and receive real-time sentiment predictions: **Negative**, **Neutral**, or **Positive**.
 
