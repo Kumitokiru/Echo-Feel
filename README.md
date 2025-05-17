@@ -12,17 +12,28 @@ The model is trained on a **combined dataset** from:
 
 EchoFeel/
 ├── app.py # Flask web app
+
 ├── train_combined.ipynb # Jupyter notebook to train combined model
+
 ├── models/
 │ ├── sentiment_model.pkl # Trained logistic regression model
+
 │ └── vectorizer.pkl # TF-IDF vectorizer
+
 ├── data/ # Training data (excluded from GitHub)
+
 │ ├── test.ft.txt
+
 │ └── SHOPEE_REVIEWS.csv
+
 ├── templates/
+
 │ └── index.html # Web UI (textarea form)
+
 ├── static/ # (optional) CSS, images, etc.
+
 ├── .gitignore
+
 └── README.md
 
 ---
@@ -33,6 +44,7 @@ EchoFeel/
 
 
 git clone https://github.com/Kumitokiru/Echo-Feel.git
+
 cd echofeel
 
 ### 2. Install required packages
