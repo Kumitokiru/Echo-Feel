@@ -53,7 +53,9 @@ You should end up with:
 
     
 data/
+
 ├── test.ft.txt
+
 └── SHOPEE_REVIEWS.csv
 
 Training the Model
