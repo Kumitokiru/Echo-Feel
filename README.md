@@ -12,7 +12,7 @@ The model is trained on a **combined dataset** from:
 
 EchoFeel/
 ├── app.py # Flask web app
-├── train_model.ipynb # Jupyter notebook to train combined model
+├── train_combined.ipynb # Jupyter notebook to train combined model
 ├── models/
 │ ├── sentiment_model.pkl # Trained logistic regression model
 │ └── vectorizer.pkl # TF-IDF vectorizer
@@ -69,7 +69,7 @@ data/
 
 Training the Model
 
-Open the train_model.ipynb notebook and run all cells. This will:
+Open the train_combined.ipynb notebook and run all cells. This will:
 
 Load and combine FastText + Shopee reviews
 
