@@ -26,6 +26,37 @@ Go to your cloned Echo-Feel folder and look for data.zip, extract it.
 
 After extracting open the data and inside it, anoter data folder, cut it, and go back to your cloned Echo-Feel folder and paste it.
 
+Your folder structure should be like this:
+
+```terminal
+EchoFeel/
+├── app.py # Flask web app
+
+├── train_model.ipynb # Jupyter notebook to train combined model
+
+├── models/
+
+│ ├── sentiment_model.pkl # Trained logistic regression model
+
+│ └── vectorizer.pkl # TF-IDF vectorizer
+
+├── data/ # Training data (excluded from GitHub)
+
+│ ├── test.ft.txt
+
+│ └── SHOPEE_REVIEWS.csv
+
+├── templates/
+
+│ └── index.html # Web UI (textarea form)
+
+├── static/ # (optional) CSS, images, etc.
+
+├── .gitignore
+
+└── README.md
+```
+
 ### 2. Install required packages
 
 On your terminal or VS Code's terminal
