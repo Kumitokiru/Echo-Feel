@@ -6,37 +6,7 @@ The model is trained on a **combined dataset** from:
 - FastText sample review data (`test.ft.txt`)
 - Shopee customer reviews (`SHOPEE_REVIEWS.csv`)
 
----
 
-## 📁 Project Structure
-
-EchoFeel/
-├── app.py # Flask web app
-
-├── train_combined.ipynb # Jupyter notebook to train combined model
-
-├── models/
-│ ├── sentiment_model.pkl # Trained logistic regression model
-
-│ └── vectorizer.pkl # TF-IDF vectorizer
-
-├── data/ # Training data (excluded from GitHub)
-
-│ ├── test.ft.txt
-
-│ └── SHOPEE_REVIEWS.csv
-
-├── templates/
-
-│ └── index.html # Web UI (textarea form)
-
-├── static/ # (optional) CSS, images, etc.
-
-├── .gitignore
-
-└── README.md
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -59,8 +29,9 @@ These are automatically downloaded by the app, or you can pre-download:
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('wordnet') 
+nltk.download('wordnet')
 ```
+
 Dataset Download
 The training dataset is not included in the GitHub repository due to size limits.
 
