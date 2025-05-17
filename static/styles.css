@@ -1,0 +1,25 @@
+body { 
+    font-family: Arial, sans-serif; 
+    color: #ffffff;
+    background: #191717; 
+}
+.container { 
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+   background: rgb(86, 86, 86); 
+   border-radius: 8px; 
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+textarea { 
+    width: 100%; 
+    font-size: 1rem; 
+}
+button { 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+.result { 
+    margin-top: 20px; 
+}

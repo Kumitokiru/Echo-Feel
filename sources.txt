@@ -1,0 +1,3 @@
+https://www.kaggle.com/account/login?titleType=dataset-downloads&showDatasetDownloadSkip=False&messageId=datasetsWelcome&returnUrl=%2Fdatasets%2Fbwandowando%2Fshopee-app-reviews-from-google-store%2Fversions%2F3%3Fresource%3Ddownload
+
+https://www.kaggle.com/code/bwandowando/quick-eda-of-shopee-reviews-dataset
