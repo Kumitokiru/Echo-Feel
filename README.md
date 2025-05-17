@@ -29,7 +29,7 @@ After extracting open the data and inside it, anoter data folder, cut it, and go
 Your folder structure should be like this:
 
 ```terminal
-EchoFeel/
+Echo-Feel/
 ├── app.py # Flask web app
 ├── train_model.ipynb # Jupyter notebook to train combined model
 ├── models/
