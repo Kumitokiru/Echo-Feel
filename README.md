@@ -68,14 +68,20 @@ Preprocess using English stopwords
 
 Train a 3-class Logistic Regression model
 
-Save the model and TF-IDF vectorizer under models/
+download the model and TF-IDF vectorizer under models/
 
 Start the web server with:
-python app.py
 
+On terminal or VSCode's terminal
+
+```python
+python app.py
+```
 
 Then visit:
+
 http://127.0.0.1:5000
-or visit sraight
-https://echo-feel.onrender.com
+
+
+
 
