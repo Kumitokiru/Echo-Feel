@@ -15,9 +15,16 @@ The model is trained on a **combined dataset** from:
 ```terminal
 git clone https://github.com/Kumitokiru/Echo-Feel.git
 ```
+
+After cloning, it will give a warning, but it can be ignore
+
 ```terminal
-cd echofeel
+cd Echo-Feel
 ```
+
+Go to your cloned Echo-Feel folder and look for data.zip, extract it.
+
+After extracting open the data and inside it, anoter data folder, cut it, and go back to your cloned Echo-Feel folder and paste it.
 
 ### 2. Install required packages
 
@@ -41,7 +48,7 @@ nltk.download('wordnet')
 Dataset Download
 The training dataset is not included in the GitHub repository due to size limits.
 
-➡️ Download the ZIP file (~98MB):
+➡️ Download the ZIP file ((~98MB)Optional):
 Download EchoFeel Training Data
 (https://drive.google.com/drive/folders/1wZfOkLcqlOcWS9-Z5zDcKkjyqm4rlBhx?usp=sharing)
 
