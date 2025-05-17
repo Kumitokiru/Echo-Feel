@@ -35,12 +35,13 @@ EchoFeel/
 ├── models/
 │ ├── sentiment_model.pkl # Trained logistic regression model
 │ └── vectorizer.pkl # TF-IDF vectorizer
-├── data/ # Training data (excluded from GitHub)
+├── data/ # Training data (cut from extracted data.zip)
 │ ├── test.ft.txt
 │ └── SHOPEE_REVIEWS.csv
 ├── templates/
 │ └── index.html # Web UI (textarea form)
 ├── static/ # (optional) CSS, images, etc.
+├── data.zip
 ├── .gitignore
 └── README.md
 ```
