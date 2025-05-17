@@ -15,11 +15,17 @@ The model is trained on a **combined dataset** from:
 ```terminal
 git clone https://github.com/Kumitokiru/Echo-Feel.git
 ```
+```terminal
 cd echofeel
+```
 
 ### 2. Install required packages
 
+On your terminal or VS Code's terminal
+
+```terminal
 pip install -r requirements.txt
+```
 
 ### 3. Prepare NLTK resources
 
