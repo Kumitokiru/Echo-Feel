@@ -71,8 +71,10 @@ Train a 3-class Logistic Regression model
 Save the model and TF-IDF vectorizer under models/
 
 Start the web server with:
-python app.py
 
+```terminal
+python app.py
+```
 
 Then visit:
 http://127.0.0.1:5000
