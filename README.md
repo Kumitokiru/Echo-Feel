@@ -1,4 +1,4 @@
-# Echo Feel – Sentiment Analyzer
+# EchoFeel – Sentiment Analyzer
 
 **EchoFeel** is a sentiment analysis web app built using Flask and machine learning. It allows users to input product reviews (in English, Tagalog, or Taglish) and receive real-time sentiment predictions: **Negative**, **Neutral**, or **Positive**.
 
@@ -15,35 +15,8 @@ The model is trained on a **combined dataset** from:
 ```terminal
 git clone https://github.com/Kumitokiru/Echo-Feel.git
 ```
-
-After cloning, it will give a warning, but it can be ignore
-
 ```terminal
-cd Echo-Feel
-```
-
-Go to your cloned Echo-Feel folder and look for data.zip, extract it.
-
-After extracting open the data and inside it, anoter data folder, cut it, and go back to your cloned Echo-Feel folder and paste it.
-
-Your folder structure should be like this:
-
-```terminal
-Echo-Feel/
-├── app.py # Flask web app
-├── train_model.ipynb # Jupyter notebook to train combined model
-├── models/
-│ ├── sentiment_model.pkl # Trained logistic regression model
-│ └── vectorizer.pkl # TF-IDF vectorizer
-├── data/ # Training data (cut from extracted data.zip)
-│ ├── test.ft.txt
-│ └── SHOPEE_REVIEWS.csv
-├── templates/
-│ └── index.html # Web UI (textarea form)
-├── static/ # (optional) CSS, images, etc.
-├── data.zip
-├── .gitignore
-└── README.md
+cd echofeel
 ```
 
 ### 2. Install required packages
@@ -68,7 +41,7 @@ nltk.download('wordnet')
 Dataset Download
 The training dataset is not included in the GitHub repository due to size limits.
 
-➡️ Download the ZIP file ((~98MB)Optional):
+➡️ Download the ZIP file (~98MB):
 Download EchoFeel Training Data
 (https://drive.google.com/drive/folders/1wZfOkLcqlOcWS9-Z5zDcKkjyqm4rlBhx?usp=sharing)
 
@@ -95,20 +68,14 @@ Preprocess using English stopwords
 
 Train a 3-class Logistic Regression model
 
-download the model and TF-IDF vectorizer under models/
+Save the model and TF-IDF vectorizer under models/
 
 Start the web server with:
-
-On terminal or VSCode's terminal
-
-```python
 python app.py
-```
+
 
 Then visit:
-
 http://127.0.0.1:5000
-
-
-
+or visit directly to
+https://echo-feel.onrender.com
 
